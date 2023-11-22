@@ -3,7 +3,7 @@ import Container from '../Container';
 import { Button } from '../ui/button';
 import Image from 'next/image';
 
-import pass from '@/assets/Video2.png';
+import pass from '../../assets/Video2.png';
 const Pass = () => {
   return (
     <Container>
