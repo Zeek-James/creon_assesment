@@ -1,8 +1,8 @@
 import React from 'react';
 
-import image4 from '../../assets/ImageFour.png';
-import image5 from '../../assets/ImageFive.png';
-import image6 from '../../assets/ImageSix.png';
+import image4 from '../../assets/imageFour.png';
+import image5 from '../../assets/imageFive.png';
+import image6 from '../../assets/imageSix.png';
 import Container from '../Container';
 import Image from 'next/image';
 
