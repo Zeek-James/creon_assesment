@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-import image1 from '@/assets/Video (3).png';
+import image1 from '@/assets/Video3.png';
 import Container from '../Container';
 const Profit = () => {
   return (
