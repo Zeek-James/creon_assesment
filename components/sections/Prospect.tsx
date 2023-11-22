@@ -1,8 +1,8 @@
 import React from 'react';
 
-import image4 from '../../assets/ImageFour.png';
-import image5 from '../../assets/ImageFive.png';
-import image6 from '../../assets/ImageSix.png';
+// import image4 from '../../assets/ImageFour.png';
+// import image5 from '../../assets/ImageFive.png';
+// import image6 from '../../assets/ImageSix.png';
 import Container from '../Container';
 import Image from 'next/image';
 
@@ -12,17 +12,17 @@ const Prospect = () => {
       name: 'AI Prospects, Market Size, and Development Pace',
       desc: 'The AI market is one of the most dynamically growing areas of technology. According to reports, the global AI market is expected to reach $190.61 billion by 2025, with a CAGR (Compound Annual Growth Rate) of 36.6%. The key drivers behind this growth include advancements in machine learning, increasing demand for big data analytics, and growing adoption of AI technology across various sectors such as healthcare, finance, and transportation.',
       text: '',
-      image: image4,
+      image: 'ImageFour.png',
     },
     {
       name: 'AI Tools and Market',
       desc: 'AI tools refer to the technologies and software that enable computer systems to perform tasks usually requiring human intellect. The market for these tools is dynamic and diverse, encompassing areas such as Natural Language Processing (NLP), machine learning, computer vision, and robotics. With a wide range of applications, AI tools are becoming increasingly indispensable in many sectors, from healthcare to finance, retail, manufacturing, and many others.',
-      image: image5,
+      image: 'ImageFive.png',
     },
     {
       name: 'AI, Crypto, and NFT Market',
       desc: ' Artificial Intelligence and blockchain technology are two groundbreaking areas leading new technological innovations. The combination of these two technologies creates intriguing possibilities. For instance, Non-Fungible Tokens (NFTs) can leverage AI to create unique digital artworks or to provide exclusive AI-based services. Meanwhile, cryptocurrencies can benefit from AI by improving security mechanisms, transaction efficiency, and service personalization. Such combination brings substantial benefits for both developers and users, paving the way for unprecedented possibilities.',
-      image: image6,
+      image: 'ImageSix.png',
     },
   ];
   return (
@@ -42,7 +42,7 @@ const Prospect = () => {
 
             <div className='w-full md:w-2/5 xl:w-1/5 h-64'>
               <Image
-                src={item.image}
+                src={`/${item.image}`}
                 alt='offer'
                 width={300}
                 height={255}
